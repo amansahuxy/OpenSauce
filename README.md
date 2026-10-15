@@ -81,6 +81,62 @@ Each language folder contains its own README with specific guidelines and sugges
 - Provide example usage or test cases
 - Use meaningful variable and function names
 
+### 📄 Recommended Solution Format
+
+To keep the repository organized and beginner-friendly, contributors are encouraged to follow these guidelines when adding solutions:
+
+- **Choose the correct category:** Place your solution in the appropriate language and topic directory.
+- **Use descriptive filenames:** Name files according to the problem or algorithm they implement.
+- **Write readable code:** Use meaningful variable names, proper indentation, and comments where necessary.
+- **Explain the approach:** Briefly describe the algorithm or logic used to solve the problem.
+- **Include complexity analysis:** Mention the expected time and space complexity.
+- **Add examples:** Include sample input and output or example usage when appropriate.
+- **Follow existing conventions:** Check nearby files before creating a new file or directory.
+- **Avoid duplicate solutions:** Search the repository before submitting a new implementation.
+
+Example directory structure:
+
+```text
+Python/
+├── Arrays/
+│   ├── product_except_self.py
+│   └── two_sum.py
+├── Searching/
+│   └── binary_search.py
+└── Sorting/
+    └── merge_sort.py
+```
+
+*Note: The example is illustrative. Follow the repository's existing folder structure and naming conventions.*
+
+### 🧪 Testing Guidelines
+
+Before submitting a pull request, please ensure that your code works correctly.
+
+- Run your solution and verify that it executes without errors.
+- Check the expected output against the problem requirements.
+- Test normal inputs and relevant edge cases.
+- Consider empty inputs, single-element arrays, duplicate values, negative numbers, and zeros where applicable.
+- Ensure that your changes do not unintentionally affect existing code.
+- Include test cases or example usage when they help others understand and verify the solution.
+
+### ✅ Pull Request Checklist
+
+Before submitting your contribution, please review the following checklist:
+
+- [ ] My solution is placed in the appropriate directory.
+- [ ] I checked for existing solutions to avoid unnecessary duplicates.
+- [ ] My code follows the repository's conventions.
+- [ ] I tested my solution with appropriate inputs.
+- [ ] I included the approach and complexity analysis where applicable.
+- [ ] My pull request has a clear title and description.
+- [ ] My changes are limited to the intended contribution.
+- [ ] I have read and followed the contribution guidelines.
+
+Thank you for contributing to **OpenSauce**! 🎃
+
+Every meaningful contribution helps make this repository more useful for learners and developers. Keep learning, keep sharing, and keep contributing!
+
 ### What NOT to Contribute
 - ❌ Duplicate implementations (check existing code first)
 - ❌ Poorly documented code
